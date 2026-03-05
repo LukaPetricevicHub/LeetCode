@@ -6,7 +6,8 @@ public class Solution {
         int[] nums = {2,7, 11, 15};
         int target = 9;
 
-        int [] result = bruteTwoSum(nums, target);
+        // int[] result = bruteTwoSum(nums, target);
+        int[] result = efficientTwoSum(nums, target);
 
 
         // Per problem statement, there will always exist one solution. Yet checking doesn't hurt no one
@@ -44,7 +45,7 @@ public class Solution {
      * Problem with previous: Nested Loop -> Worst case: O(n^2) time complexity
      *
      * How can we achieve only one full array iteration worst case?
-     * Answer: track our values using a HashMap
+     * Answer: check for each number if the complement exists in the HashMap
      *
      * Worst case time complexity now: O(n)
      * @param nums input array
