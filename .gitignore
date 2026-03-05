@@ -1,9 +1,10 @@
-# macOS
-.DS_Store
-
-# IntelliJ / CLion / IDE files
+# IntelliJ
 .idea/
 *.iml
 
-# Build
+# Java build files
 out/
+*.class
+
+# macOS
+.DS_Store
