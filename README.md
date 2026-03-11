@@ -14,5 +14,7 @@ Each problem has its own folder containing:
 
 ## Current Progress
 
-- Arrays
+- Arrays and Hashing
   - Two Sum
+  - Valid Anagram
+  - Contains Duplicate
